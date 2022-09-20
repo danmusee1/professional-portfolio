@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Header from '../components/Header';
 import About from '../components/About';
 import WorkExperience from '../components/WorkExperience';
+import Skills from '../components/Skills';
 
 
 const Home: NextPage = () => {
@@ -33,6 +34,9 @@ const Home: NextPage = () => {
  </section>
 
  {/* skills */}
+ <section id="Skills" className='snap-center'>
+<Skills/>
+ </section>
 
  {/* projects */}
 

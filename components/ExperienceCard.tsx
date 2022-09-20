@@ -42,12 +42,12 @@ export default function ExperienceCard({}: Props) {
         </div>
         <p> Started work.... Ended....</p>
             <ul className="list-disc space-y-4 ml-5 text-lg">
-                <li>Summary Points</li>
-                <li>Summary Points</li>
-                <li>Summary Points</li>
-                <li>Summary Points</li>
-                <li>Summary Points</li>
-                <li>Summary Points</li>
+                <li>Summary Points of my life on the day I started working</li>
+                <li>Summary Points of my life on the day I started working</li>
+                <li>Summary Points of my life on the day I started working</li>
+                <li>Summary Points of my life on the day I started working</li>
+                <li>Summary Points of my life on the day I started working</li>
+                <li>Summary Points of my life on the day I started working</li>
             </ul>
     </div>
   </article>
