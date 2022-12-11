@@ -24,8 +24,8 @@ function Projects({}: Props) {
             </h3>
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
                 {projects.map((project, i) =>(
-                    <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 
-                    items-center justify-center p-20 md:p-44 h-screen'>
+                    <div key={projects.id}  className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 
+                    items-center justify-center p-20 md:p-44 h-screen' >
                         <motion.img
     initial={{
         opacity:0,
@@ -45,7 +45,7 @@ function Projects({}: Props) {
 
                         <div className='space-y-10 px-0 md-px-10 max-w-6xl '> 
                         <h2 className='text-4xl font-semibold text-center'>
-                             <span className='underline decoration-[#F7AB0A]/50'>case Study {i+1} of {projects.length}:</span>
+                             <span  className='underline decoration-[#F7AB0A]/50'>case Study {i+1} of {projects.length}:</span>
                              Sanity studio</h2>
                              <p className='text-lg text-center md:text-left'>
                                 Netflix app v2.0 that has alog in and a log out functionality. Athentificates const has an admin page that

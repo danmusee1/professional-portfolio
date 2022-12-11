@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
+import Image from 'next/image'
 
 type Props = {}
 
@@ -28,13 +29,13 @@ export default function ExperienceCard({}: Props) {
         <h4 className="lg:text-4xl text-2xl font-light">YOUNG CEO @ SANTORIN</h4>
         <p className="font-bold text-2xl mt-1">NONICHE</p>
         <div className='flex space-x-2 my-2'>
-            <img className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="imgteck"/>
+            <Image className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="Imageteck" height="100px" width="100px" />
             {/*techstack used*/}
-            <img className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="imgteck"/>
+            <Image className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="Imageteck" height="100px" width="100px"/>
             {/*techstack used*/}
-            <img className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="imgteck"/>
+            <Image className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="Imageteck" height="100px" width="100px"/>
             {/*techstack used*/}
-            <img className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="imgteck"/>
+            <Image className="h-10 rounded-full" src="https://cdn.sanity.io/images/bhlraw1w/production/92be0504b38168369d8a9f999d6f8622394dab18-800x600.webp" alt="imgteck" height="100px" width="100px"/>
             {/*techstack used*/}
             
         </div>
