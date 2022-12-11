@@ -4,8 +4,10 @@ import Image from 'next/image'
 import Hero from '../components/Hero';
 import Header from '../components/Header';
 import About from '../components/About';
+import Projects from '../components/Projects';
 import WorkExperience from '../components/WorkExperience';
 import Skills from '../components/Skills';
+import ContactMe from '../components/ContactMe';
 
 
 const Home: NextPage = () => {
@@ -38,8 +40,14 @@ const Home: NextPage = () => {
 <Skills/>
  </section>
 
- {/* projects */}
+ <section id="Projects" className='snap-center'>
+<Projects/>
+ </section>
 
+ {/* projects */}
+<section id="ContactMe" className='snap-center'>
+  <ContactMe />
+</section>
  {/* contact me */}
     
 
