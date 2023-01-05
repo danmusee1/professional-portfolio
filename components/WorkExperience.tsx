@@ -22,7 +22,9 @@ export default function WorkExperience({}: Props) {
     max-w-full px-1 lg:px-10 justify-evenly mx-auto items-center '>
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-400 text-2xl">
             Experience</h3>
-            <div className='w-full flex space-x-2 lg:space-x-5 overflow-x-scroll snap-x snap-mandatory'>
+
+            <div className='w-full flex space-x-2 lg:space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
+            scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
                 <ExperienceCard/>
                 <ExperienceCard/>
                 <ExperienceCard/>

@@ -8,6 +8,7 @@ import Projects from '../components/Projects';
 import WorkExperience from '../components/WorkExperience';
 import Skills from '../components/Skills';
 import ContactMe from '../components/ContactMe';
+import Link from 'next/link';
 
 
 const Home: NextPage = () => {
@@ -46,10 +47,18 @@ const Home: NextPage = () => {
  </section>
 
  {/* projects */}
-<section id="ContactMee" className='snap-center'>
+<section id="Contact" className='snap-center'>
   <ContactMe />
 </section>
  {/* contact me */}
+ <Link href="#hero">
+ <footer className='sticky bottom-1 w-full cursor-pointer'>
+  <div className='flex item-center justify-center'>
+    <Image className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer
+    ' src="https://avatars.githubusercontent.com/u/104038467?v=4" alt="profileimg" height="60" width="60"/>
+  </div>
+ </footer>
+ </Link>
     
 
      
