@@ -5,8 +5,38 @@ type Props = {}
 
 function Projects({}: Props) {
     const projects=[
+        {
+            id: 1,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        },
+        {
+            id: 2,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        },
+        {
+            id: 2,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        },
+        {
+            id: 3,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        }, 
+        {
+            id: 4,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        },
+        {
+            id: 5,
+            title: 'Project 1',
+            description: 'Project 1 description',
+        }
         
-        1, 2, 3, 4, 5
+       
     ];
   return (
     <motion.div
