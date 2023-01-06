@@ -78,10 +78,10 @@ function Projects({}: Props) {
                         alt="project" height="350px" width="350px"/>
 
                         <div className='space-y-10 px-0 md-px-10 max-w-6xl '> 
-                        <h2 className='text-4xl font-semibold text-center'>
+                        <h2 className='lg:text-4xl text-xl font-semibold text-center'>
                              <span  className='underline decoration-[#F7AB0A]/50'>case Study {i+1} of {projects.length}:</span>
                              Sanity studio</h2>
-                             <p className='text-lg text-center md:text-left'>
+                             <p className='lg:text-lg  text-center md:text-left'>
                                 Netflix app v2.0 that has alog in and a log out functionality. Athentificates const has an admin page that
                                 allows udser roles administation. enables movie adition , delition , updation and reading.
                                 supper fast build with an integrated api calls using asynch functions/. payment is done using stripe, mpesa and apple pay

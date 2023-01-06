@@ -22,7 +22,7 @@ export default function Skill({directionLeft}: Props) {
             
         }}
         src="https://cdn.sanity.io/images/bhlraw1w/production/0aa2d3e268b6b95186b6cda1792c708cc338452d-1000x1000.png"
-        className="rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 
+        className="rounded-full  border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 
         xl:w-32 xl-h-32 filter group-hover:grayscaale transition duration-300
         ease-in-out"
         />
@@ -30,7 +30,7 @@ export default function Skill({directionLeft}: Props) {
         ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl-h-32
         rounded-full z-0">
             <div className="flex items-center justify-center h-full">
-                <p className="text-3xl font-bold text-black opacity-100">
+                <p className="lg:text-3xl font-bold text-black opacity-100">
                     100%
                 </p>
             </div>
